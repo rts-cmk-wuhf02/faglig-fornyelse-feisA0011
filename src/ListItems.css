@@ -1,0 +1,39 @@
+.list {
+  color: oldlace;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 400px;
+  height: 50px;
+
+  border-radius: 5px;
+  background: linear-gradient(
+    351deg,
+    rgba(39, 243, 95, 1) 12%,
+    rgba(7, 224, 241, 1) 100%
+  );
+
+  margin: 26px auto;
+}
+.list p {
+  padding: 10px;
+  position: relative;
+}
+.list p span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: oldlace;
+}
+.faicon {
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+.list p input {
+  background-color: transparent;
+  border: none;
+  color: oldlace;
+  font-size: 18px;
+  padding: 5px;
+  outline: none;
+}

@@ -1,0 +1,73 @@
+body {
+  background: rgb(28, 195, 239);
+  background: linear-gradient(
+      351deg,
+      rgba(34, 112, 132, 1) 0%,
+      rgba(7, 206, 241, 1) 100%
+    )
+    no-repeat;
+}
+/* h1 {
+  text-align: center;
+  color: #033e4e;
+  font-weight: bold;
+  font-family: "Ultra", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 2px antiquewhite, 0 3px #777;
+} */
+.App {
+  background: linear-gradient(
+      24deg,
+      rgba(120, 181, 202, 1) 0%,
+      rgba(0, 56, 66, 1) 100%
+    )
+    no-repeat;
+  width: 500px;
+  min-height: 600px;
+
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: 0px -28px 73px 16px rgba(0, 56, 66, 1),
+    inset 3px 2px 56px 10px rgba(0, 56, 66, 1);
+}
+
+.task {
+  background-color: #06aad5;
+  outline: none;
+  border: none;
+  width: 300px;
+  padding: 0 20px;
+  height: 50px;
+  -margin: 20px;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  height: 60px;
+  background: linear-gradient(
+    351deg,
+    rgba(141, 84, 3, 1) 0%,
+    rgba(241, 222, 7, 1) 100%
+  );
+  color: antiquewhite;
+  font-weight: bolder;
+  outline: none;
+  cursor: pointer;
+}
+input::placeholder {
+  color: antiquewhite;
+}
+.form {
+  display: flex;
+  justify-content: space-evenly;
+}
+header {
+  padding: 20px 0;
+}
